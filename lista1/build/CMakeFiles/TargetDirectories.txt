@@ -1,0 +1,3 @@
+/home/karoljanic/Documents/aod/lista1/build/CMakeFiles/basicGraphAlgorithms.dir
+/home/karoljanic/Documents/aod/lista1/build/CMakeFiles/edit_cache.dir
+/home/karoljanic/Documents/aod/lista1/build/CMakeFiles/rebuild_cache.dir
