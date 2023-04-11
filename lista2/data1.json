@@ -1,0 +1,40 @@
+{
+    "lotniska": {
+        "Lotnisko 1": {"zapotrzebowanie": 110000},
+        "Lotnisko 2": {"zapotrzebowanie": 220000},
+        "Lotnisko 3": {"zapotrzebowanie": 330000},
+        "Lotnisko 4": {"zapotrzebowanie": 440000}
+    },
+
+    "firmy": {
+        "Firma 1": {"zasoby": 275000},
+        "Firma 2": {"zasoby": 550000},
+        "Firma 3": {"zasoby": 660000}
+    },
+
+    "koszty": {
+        "Lotnisko 1": {
+            "Firma 1": 10, 
+            "Firma 2": 7, 
+            "Firma 3": 8
+        },
+        
+        "Lotnisko 2": {
+            "Firma 1": 10, 
+            "Firma 2": 11, 
+            "Firma 3": 14
+        },
+        
+        "Lotnisko 3": {
+            "Firma 1": 9, 
+            "Firma 2": 12, 
+            "Firma 3": 4
+        },
+
+        "Lotnisko 4": {
+            "Firma 1": 11, 
+            "Firma 2": 13, 
+            "Firma 3": 9
+        }
+    }
+}

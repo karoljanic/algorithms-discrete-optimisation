@@ -1,0 +1,33 @@
+{
+    "dzielnice" : {
+        "dzielnica 1" : {"obsada" : 10},
+        "dzielnica 2" : {"obsada" : 14},
+        "dzielnica 3" : {"obsada" : 13}
+    },
+
+    "zmiany" : {
+        "zmiana 1" : {"obsada" : 10},
+        "zmiana 2" : {"obsada" : 20},
+        "zmiana 3" : {"obsada" : 18}
+    },
+
+    "ograniczenia" : {
+        "dzielnica 1" : {
+            "zmiana 1" : {"min" : 2, "max" : 3},
+            "zmiana 2" : {"min" : 4, "max" : 7},
+            "zmiana 3" : {"min" : 3, "max" : 5}
+        },
+
+        "dzielnica 2" : {
+            "zmiana 1" : {"min" : 3, "max" : 5},
+            "zmiana 2" : {"min" : 6, "max" : 7},
+            "zmiana 3" : {"min" : 5, "max" : 10}
+        },
+
+        "dzielnica 3" : {
+            "zmiana 1" : {"min" : 5, "max" : 8},
+            "zmiana 2" : {"min" : 7, "max" : 12},
+            "zmiana 3" : {"min" : 6, "max" : 10}
+        }
+    }
+}

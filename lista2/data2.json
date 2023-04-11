@@ -1,0 +1,321 @@
+{
+    "miasta": [
+        "Warszawa", 
+        "Krakow", 
+        "Lodz", 
+        "Wroclaw", 
+        "Poznan", 
+        "Gdansk", 
+        "Gdynia", 
+        "Szczecin", 
+        "Torun", 
+        "Bydgoszcz"
+    ],
+
+    "polaczenia": {
+        "Warszawa": {
+            "Bydgoszcz": {
+                "odleglosc": 308,
+                "czas": 198
+            },
+            "Wroclaw": {
+                "odleglosc": 348,
+                "czas": 232
+            },
+            "Gdansk": {
+                "odleglosc": 340,
+                "czas": 224
+            },
+            "Szczecin": {
+                "odleglosc": 566,
+                "czas": 346
+            },
+            "Poznan": {
+                "odleglosc": 312,
+                "czas": 211
+            },
+            "Torun": {
+                "odleglosc": 259,
+                "czas": 168
+            },
+            "Lodz": {
+                "odleglosc": 136,
+                "czas": 102
+            }
+        },
+        "Krakow": {
+            "Wroclaw": {
+                "odleglosc": 268,
+                "czas": 206
+            },
+            "Bydgoszcz": {
+                "odleglosc": 495,
+                "czas": 340
+            },
+            "Warszawa": {
+                "odleglosc": 290,
+                "czas": 217
+            },
+            "Torun": {
+                "odleglosc": 446,
+                "czas": 300
+            },
+            "Poznan": {
+                "odleglosc": 459,
+                "czas": 312
+            },
+            "Szczecin": {
+                "odleglosc": 648,
+                "czas": 344
+            },
+            "Lodz": {
+                "odleglosc": 434,
+                "czas": 277
+            }
+        },
+        "Lodz": {
+            "Wroclaw": {
+                "odleglosc": 214,
+                "czas": 145
+            },
+            "Torun": {
+                "odleglosc": 183,
+                "czas": 124
+            },
+            "Gdansk": {
+                "odleglosc": 340,
+                "czas": 207
+            },
+            "Warszawa": {
+                "odleglosc": 140,
+                "czas": 104
+            },
+            "Gdynia": {
+                "odleglosc": 362,
+                "czas": 226
+            },
+            "Krakow": {
+                "odleglosc": 280,
+                "czas": 199
+            },
+            "Poznan": {
+                "odleglosc": 211,
+                "czas": 168
+            }
+        },
+        "Wroclaw": {
+            "Lodz": {
+                "odleglosc": 222,
+                "czas": 147
+            },
+            "Krakow": {
+                "odleglosc": 273,
+                "czas": 189
+            },
+            "Szczecin": {
+                "odleglosc": 417,
+                "czas": 259
+            },
+            "Torun": {
+                "odleglosc": 358,
+                "czas": 231
+            },
+            "Warszawa": {
+                "odleglosc": 355,
+                "czas": 229
+            },
+            "Poznan": {
+                "odleglosc": 182,
+                "czas": 134
+            },
+            "Gdynia": {
+                "odleglosc": 509,
+                "czas": 314
+            }
+        },
+        "Poznan": {
+            "Warszawa": {
+                "odleglosc": 311,
+                "czas": 199
+            },
+            "Lodz": {
+                "odleglosc": 218,
+                "czas": 150
+            },
+            "Gdynia": {
+                "odleglosc": 332,
+                "czas": 212
+            },
+            "Krakow": {
+                "odleglosc": 458,
+                "czas": 300
+            },
+            "Bydgoszcz": {
+                "odleglosc": 139,
+                "czas": 92
+            },
+            "Gdansk": {
+                "odleglosc": 311,
+                "czas": 194
+            },
+            "Wroclaw": {
+                "odleglosc": 185,
+                "czas": 134
+            }
+        },
+        "Gdansk": {
+            "Poznan": {
+                "odleglosc": 311,
+                "czas": 205
+            },
+            "Warszawa": {
+                "odleglosc": 348,
+                "czas": 240
+            },
+            "Lodz": {
+                "odleglosc": 337,
+                "czas": 207
+            },
+            "Wroclaw": {
+                "odleglosc": 482,
+                "czas": 319
+            },
+            "Gdynia": {
+                "odleglosc": 20,
+                "czas": 30
+            },
+            "Bydgoszcz": {
+                "odleglosc": 167,
+                "czas": 113
+            },
+            "Torun": {
+                "odleglosc": 170,
+                "czas": 112
+            }
+        },
+        "Gdynia": {
+            "Warszawa": {
+                "odleglosc": 383,
+                "czas": 264
+            },
+            "Szczecin": {
+                "odleglosc": 358,
+                "czas": 272
+            },
+            "Wroclaw": {
+                "odleglosc": 509,
+                "czas": 313
+            },
+            "Bydgoszcz": {
+                "odleglosc": 191,
+                "czas": 129
+            },
+            "Poznan": {
+                "odleglosc": 336,
+                "czas": 220
+            },
+            "Torun": {
+                "odleglosc": 194,
+                "czas": 128
+            },
+            "Gdansk": {
+                "odleglosc": 36,
+                "czas": 30
+            }
+        },
+        "Szczecin": {
+            "Krakow": {
+                "odleglosc": 647,
+                "czas": 387
+            },
+            "Gdynia": {
+                "odleglosc": 355,
+                "czas": 263
+            },
+            "Poznan": {
+                "odleglosc": 265,
+                "czas": 177
+            },
+            "Gdansk": {
+                "odleglosc": 370,
+                "czas": 266
+            },
+            "Wroclaw": {
+                "odleglosc": 394,
+                "czas": 253
+            },
+            "Lodz": {
+                "odleglosc": 269,
+                "czas": 159
+            },
+            "Bydgoszcz": {
+                "odleglosc": 259,
+                "czas": 225
+            }
+        },
+        "Torun": {
+            "Bydgoszcz": {
+                "odleglosc": 46,
+                "czas": 50
+            },
+            "Szczecin": {
+                "odleglosc": 314,
+                "czas": 246
+            },
+            "Warszawa": {
+                "odleglosc": 262,
+                "czas": 170
+            },
+            "Poznan": {
+                "odleglosc": 189,
+                "czas": 146
+            },
+            "Gdansk": {
+                "odleglosc": 168,
+                "czas": 109
+            },
+            "Wroclaw": {
+                "odleglosc": 392,
+                "czas": 249
+            },
+            "Gdynia": {
+                "odleglosc": 194,
+                "czas": 123
+            }
+        },
+        "Bydgoszcz": {
+            "Warszawa": {
+                "odleglosc": 310,
+                "czas": 205
+            },
+            "Poznan": {
+                "odleglosc": 132,
+                "czas": 104
+            },
+            "Lodz": {
+                "odleglosc": 164,
+                "czas": 114
+            },
+            "Torun": {
+                "odleglosc": 46,
+                "czas": 53
+            },
+            "Wroclaw": {
+                "odleglosc": 313,
+                "czas": 212
+            },
+            "Szczecin": {
+                "odleglosc": 259,
+                "czas": 228
+            },
+            "Gdansk": {
+                "odleglosc": 167,
+                "czas": 112
+            }
+        }        
+    },
+
+    "lokalizacja_poczatkowa": "Gdynia",
+    "lokalizacja_koncowa": "Krakow",
+    "ograniczenie_czasowe": 440
+}

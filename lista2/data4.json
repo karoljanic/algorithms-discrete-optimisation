@@ -1,0 +1,56 @@
+{
+    "n": 5,
+    "m": 5,
+    "k": 1,
+
+    "polozenia": {
+        "kontener_1": {
+            "x": 0,
+            "y": 0
+        },
+        "kontener_2": {
+            "x": 2,
+            "y": 0
+        },
+        "kontener_3": {
+            "x": 4,
+            "y": 0
+        },
+        "kontener_4": {
+            "x": 0,
+            "y": 1
+        },
+        "kontener_5": {
+            "x": 1,
+            "y": 2
+        },
+        "kontener_6": {
+            "x": 3,
+            "y": 2
+        },
+        "kontener_7": {
+            "x": 1,
+            "y": 3
+        },
+        "kontener_8": {
+            "x": 2,
+            "y": 3
+        },
+        "kontener_9": {
+            "x": 3,
+            "y": 3
+        },
+        "kontener_10": {
+            "x": 0,
+            "y": 4
+        },
+        "kontener_11": {
+            "x": 1,
+            "y": 4
+        },
+        "kontener_12": {
+            "x": 4,
+            "y": 4
+        }
+    }
+}
