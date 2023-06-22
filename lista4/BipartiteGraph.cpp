@@ -2,8 +2,9 @@
 
 #include <random>
 #include <set>
+#include <iostream>
 
-BipartiteGraph::BipartiteGraph(uint8_t size, uint8_t degree) : Graph{}, subsetSize{size}, vertexDegree{degree} {
+BipartiteGraph::BipartiteGraph(size_t size, size_t degree) : Graph{}, subsetSize{size}, vertexDegree{degree} {
     // vertices in [0, ..., 2^(size + 1) + 1]; 
     // each subset consist of 2^size elements: [1, 2^size] and [2^size + 1, 2^(size + 1)]
     // source is vertex 0, target is vertex 2^(size + 1) + 1
@@ -29,7 +30,6 @@ BipartiteGraph::BipartiteGraph(uint8_t size, uint8_t degree) : Graph{}, subsetSi
         std::set<ssize_t> s;
         while(s.size() < degree) {
             ssize_t u = dis(gen);
-            //if(adjacencyList[u].size() < degree)
             s.insert(u);
         }
 

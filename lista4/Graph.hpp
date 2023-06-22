@@ -35,6 +35,7 @@ public:
     int64_t dinicSendFlow(ssize_t source, int64_t flow, ssize_t target, std::vector<ssize_t>& start, std::vector<ssize_t>& levels);
     std::pair<int64_t, size_t> dinicMaxFlow(ssize_t source, ssize_t target);
 
+    void printPositiveFlows(std::ostream& out) const;
     friend std::ostream& operator<<(std::ostream& out, const Graph& graph);
 };
 

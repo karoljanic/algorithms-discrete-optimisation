@@ -5,11 +5,11 @@
 
 class BipartiteGraph : public Graph {
 private:
-    uint8_t subsetSize;
-    uint8_t vertexDegree;
+    size_t subsetSize;
+    size_t vertexDegree;
     
 public:
-    BipartiteGraph(uint8_t size, uint8_t degree);
+    BipartiteGraph(size_t size, size_t degree);
 };
 
 #endif // BIPARTITE_GRAPH_HPP

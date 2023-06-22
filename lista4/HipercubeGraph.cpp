@@ -5,7 +5,7 @@
 #include <iostream>
 #include <vector>
 
-HipercubeGraph::HipercubeGraph(uint8_t dimension) : Graph{}, cubeDimension{dimension} {
+HipercubeGraph::HipercubeGraph(size_t dimension) : Graph{}, cubeDimension{dimension} {
     verticesNumber = 1 << dimension;    // vertices in [0, ..., 2^dimension - 1]
     adjacencyList.resize(verticesNumber);
 
@@ -21,8 +21,8 @@ HipercubeGraph::HipercubeGraph(uint8_t dimension) : Graph{}, cubeDimension{dimen
             uint8_t u_hamming = hammingWeight(u);
 
             uint8_t l = std::max(
-                std::max(static_cast<int>(v_hamming), dimension - v_hamming), 
-                std::max(static_cast<int>(u_hamming), dimension - u_hamming));
+                std::max(static_cast<int>(v_hamming), static_cast<uint8_t>(dimension) - v_hamming), 
+                std::max(static_cast<int>(u_hamming), static_cast<uint8_t>(dimension) - u_hamming));
 
             std::uniform_int_distribution<int64_t> dis(1, 1 << l);
 

@@ -22,6 +22,17 @@ std::ostream& operator<<(std::ostream& out, const Graph& graph) {
     return out;
 }
 
+void Graph::printPositiveFlows(std::ostream& out) const {
+    for(size_t v = 0; v < adjacencyList.size(); v++) {
+        out << v << ":\n";
+        for(const auto& u: adjacencyList[v]) {
+            if(u.flow > 0)
+            out << "  -> " << u.dst << ": f = " << u.flow << std::endl;
+        }
+    }
+}
+
+
 void Graph::generateGLPKModel(std::ofstream& file) const {
     if(!file.is_open()) {
         return;
@@ -119,6 +130,7 @@ std::pair<int64_t, size_t> Graph::edmondsKarpMaxFlow(ssize_t source, ssize_t tar
             }
         }
 
+        augmentingPathsCounter++;
         maxFlow += flow;
     }
     
@@ -189,6 +201,7 @@ std::pair<int64_t, size_t> Graph::dinicMaxFlow(ssize_t source, ssize_t target) {
  
         while(int64_t flow = dinicSendFlow(source, std::numeric_limits<int64_t>::max(), target, start, levels)) {
             maxFlow += flow;
+
             augmentingPathsCounter++;
         }
     }
